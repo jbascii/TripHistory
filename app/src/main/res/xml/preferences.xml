@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="islocationtracked"
+        android:title="@string/title_checkbox_trackLocations"
+        android:summary="@string/settings_summary_track_locations"
+        android:defaultValue="false" />
+
+
+    <CheckBoxPreference
+        android:key="autostartnewtrip"
+        android:title="@string/title_checkbox_autotrack"
+        android:summary="@string/title_checkbox_autotrack_message"
+        android:defaultValue="true" />
+
+
+    <CheckBoxPreference
+        android:key="warnbeforenewtrip"
+        android:title="@string/title_checkbox_warn_startnew"
+        android:summary="@string/title_checkbox_warn_startnew_message"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
